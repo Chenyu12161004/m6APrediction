@@ -1,0 +1,18 @@
+Package: m6APrediction
+Title: m6A Modification Site Prediction in R
+Version: 1.0.0
+Authors@R: 
+    person("Chenyu", "Luo", , "xiangcaiqiyijunluo@gmail.com", role = c("aut", "cre"))
+Description: 
+    This package provides a set of functions to predict N6-methyladenosine (m6A)
+    modification. This package includes a pre-trained random forest model 
+    and allows users to make predictions on both single sites and batch data frames.
+License: MIT
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.3.3
+Imports: 
+    randomForest
+Depends: R (>= 3.5.0)
+URL: https://github.com/Chenyu12161004/m6APrediction
+BugReports: https://github.com/Chenyu12161004/m6APrediction/issues
